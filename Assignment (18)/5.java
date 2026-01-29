@@ -1,0 +1,26 @@
+class Logic
+{
+    void checkSign(int num)
+    {
+        if (num > 0) 
+        {
+            System.out.println(num + " is a positive number.");
+        } 
+        else if (num < 0) 
+        {
+            System.out.println(num + " is a negative number.");
+        }
+        else
+        {
+            System.out.println(num + " is zero.");
+        }
+    }
+}
+
+class Program 
+{
+    public static void main(String args[]) {
+        Logic obj = new Logic();
+        obj.checkSign(-8);
+    }
+}
